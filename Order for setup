@@ -1,0 +1,4 @@
+Run AdminUser.sh
+place Symboliclinks.sh in shared folder
+restart and logon as new admin user
+run Symboliclinks.sh from new admin user account and specify the user account that you want the links to be created in
