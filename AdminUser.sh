@@ -1,10 +1,10 @@
-export adminuser=Joshua
-export adminpw=TalkingMrEd2
-export user=Unicom
-export pw="We are @ 5211"
-export fn=Unicom
-export ln=Technologies
-export hint=We are @
+export adminuser=currentuser
+export adminpw=currentpassword
+export user=newuser
+export pw="newuserpassword"
+export fn=newuserfirstname
+export ln=newuserlastname
+export hint=new user password hint
 sudo pwpolicy clearaccountpolicies #this may not be needed
 sysadminctl -addUser $user -fullName "$fn $ln" -password $pw -hint $hint
 #sysadminctl interactive -secureTokenOn $user -password - #this is interactive turn on of token
